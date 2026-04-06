@@ -3,7 +3,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit.Locomotion;
 
@@ -23,6 +22,9 @@ namespace Modules.Loading
         private Transform player;
 
         [Header("Loading")]
+        [SerializeField]
+        private Spawner spawner;
+
         [SerializeField]
         private GameObject loadingRoot;
 
@@ -74,21 +76,15 @@ namespace Modules.Loading
                     defaultPlayerPivot.rotation
                 );
                 TryEndLocomotion();
-                // ignored
-            }
-        }
-
-        private void Update()
-        {
-            if (Keyboard.current.spaceKey.wasPressedThisFrame)
-            {
-                TryEndLocomotion();
+                spawner.Clear();
+                loadingRoot.SetActive(false);
             }
         }
 
         private async Task LoadingProcess(CancellationToken ct)
         {
             loadingRoot.SetActive(true);
+            spawner.Spawn();
 
             TryStartLocomotionImmediately();
             await Task.Delay(TimeSpan.FromSeconds(1), ct);
@@ -108,7 +104,7 @@ namespace Modules.Loading
             await Task.Delay(TimeSpan.FromSeconds(1), ct);
             player.SetPositionAndRotation(defaultPlayerPivot.position, defaultPlayerPivot.rotation);
             TryEndLocomotion();
-
+            spawner.Clear();
             loadingRoot.SetActive(false);
         }
 
