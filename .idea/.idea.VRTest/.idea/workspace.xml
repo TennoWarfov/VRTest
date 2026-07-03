@@ -11,17 +11,143 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31bc4e3f-365c-4a91-924a-d3fe6abd8961" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Loading/NameFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Modules/Loading/NameFilter.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VRTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/LoadingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Loading/LoadingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/VR_Loading.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modules/Loading/VR_Loading.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LoadingScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LoadingScreen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Project Configuration/Performance URP Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/Performance URP Config.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Project Configuration/Quality URP Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Project Configuration/Quality URP Config.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/ChildInteractabilityController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/ChildInteractabilityController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/LoadingController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/LoadingController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/NameFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/NameFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/RandomVelocity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/RandomVelocity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/SelectFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/SelectFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/Box.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/Box.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/LoadingAnimation.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/LoadingAnimation.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/LoadingAnimator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/LoadingAnimator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/LoadingClip.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/LoadingClip.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Materials/FireFly.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Materials/FireFly.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Materials/FireFlyTrail.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Materials/FireFlyTrail.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Models/FireFly.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Models/FireFly.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Prefabs/FireFlies.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Prefabs/FireFlies.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Prefabs/ParticlesLight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Prefabs/ParticlesLight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Shaders/FireFly.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Shaders/FireFly.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures/FireFlyAlbedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures/FireFlyAlbedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures/FireFlyEmission.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures/FireFlyEmission.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures/FireFlyWings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures/FireFlyWings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures/Ramp01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Misc Effects/Textures/Ramp01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/GroundFog.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/GroundFog.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Prefabs/GroundFog.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Prefabs/GroundFog.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Textures/SmokeLoop02.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Textures/SmokeLoop02.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/UI_Images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/UI_Images.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Sources/circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Spawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/Spawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/VR_Loading.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Loading/VR_Loading.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources/STUFF_ATLAS_TRANSPERANCE.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources/STUFF_ATLAS_TRANSPERANCE.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources/Shpric_porshen 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources/Shpric_porshen 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources/Syringe.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources/Syringe.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources/SyringeCap.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Sources/SyringeCap.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Syringe.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/Syringe.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/SyringeNeedle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modules/Models/SyringeNeedle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/HandVisualizer.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/HandVisualizer.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/HandsDefaultMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/HandsDefaultMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/MaterialPipelineHandler.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/MaterialPipelineHandler.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/TransparentRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/TransparentRed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHandAndroidXR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/LeftHandAndroidXR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHand.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHand.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHandAndroidXR.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Models/RightHandAndroidXR.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs/Joint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs/Joint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs/Left Hand Tracking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs/Left Hand Tracking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs/Right Hand Tracking.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs/Right Hand Tracking.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs/VelocityPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Prefabs/VelocityPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/HandVisualizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/JointVisualizer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/JointVisualizer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Hands/1.7.1/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LoadingScreen.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LoadingScreen.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +155,83 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="19" />
+    <option name="cachedIndexableFilesCount" value="48" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Modules/Loading/NameFilter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Modules/Loading/RandomVelocity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Modules/Rasengan/Rasengan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.hands@3e241be20642/Runtime/XRHandSkeletonDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@5f736ad4ccd8/Runtime/Locomotion/Comfort/TunnelingVignetteController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@5f736ad4ccd8/Runtime/Locomotion/LocomotionProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@5f736ad4ccd8/Runtime/Locomotion/LocomotionState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@5f736ad4ccd8/Runtime/Locomotion/Movement/ContinuousMoveProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/Compiled-SoftMesh-.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000116127996" />
+      <entry key="MS500" value="1.0447627984507828" />
+      <entry key="S2" value="1.773328256533369" />
+      <entry key="S5" value="2.367595223182329" />
+      <entry key="S10" value="2.665818069119668" />
+      <entry key="S30" value="4.051255072343915" />
+      <entry key="S60" value="6.994490983436958" />
+      <entry key="M2" value="10.832898170464084" />
+      <entry key="M5" value="15.080262655180595" />
+      <entry key="M10" value="18.373020651826103" />
+      <entry key="M15" value="21.096358825737784" />
+      <entry key="M30" value="28.525691737375674" />
+      <entry key="H1" value="44.368296457379095" />
+      <entry key="H2" value="67.08607806736048" />
+      <entry key="H4" value="87.64170957160266" />
+      <entry key="D1" value="112.80210750114628" />
+      <entry key="W1" value="118.08722824342279" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="4.610953873407331E-13" />
+      <entry key="MS500" value="0.0034100296528662612" />
+      <entry key="S2" value="0.24165152426624348" />
+      <entry key="S5" value="0.5666001259939908" />
+      <entry key="S10" value="0.7548002279377773" />
+      <entry key="S30" value="1.229655357802367" />
+      <entry key="S60" value="2.086530452022957" />
+      <entry key="M2" value="3.1542999063012243" />
+      <entry key="M5" value="4.578789929533458" />
+      <entry key="M10" value="6.057927201181292" />
+      <entry key="M15" value="7.270381611761012" />
+      <entry key="M30" value="9.967797230735014" />
+      <entry key="H1" value="13.991022541824012" />
+      <entry key="H2" value="18.844973543164638" />
+      <entry key="H4" value="22.95650348471632" />
+      <entry key="D1" value="27.82067053993201" />
+      <entry key="W1" value="28.82670266739724" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.825097441806108E-7" />
+      <entry key="MS500" value="0.08752000595023701" />
+      <entry key="S2" value="1.281567830629226" />
+      <entry key="S5" value="2.4816342621851235" />
+      <entry key="S10" value="3.1519570317211443" />
+      <entry key="S30" value="5.160169306883966" />
+      <entry key="S60" value="8.990180004507753" />
+      <entry key="M2" value="13.919582247669297" />
+      <entry key="M5" value="19.620416705766058" />
+      <entry key="M10" value="24.40668807500743" />
+      <entry key="M15" value="28.348016640106167" />
+      <entry key="M30" value="38.48098929928376" />
+      <entry key="H1" value="58.35008291182975" />
+      <entry key="H2" value="85.92439090142227" />
+      <entry key="H4" value="110.59397546105598" />
+      <entry key="D1" value="140.6218885482084" />
+      <entry key="W1" value="146.91379836815372" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -56,31 +242,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "Dev",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\Unity\Editors\6000.3.9f1\Editor\Unity.exe" />
@@ -129,7 +315,13 @@
       <workItem from="1775188281872" duration="16770000" />
       <workItem from="1775444988914" duration="2803000" />
       <workItem from="1775449498962" duration="3808000" />
-      <workItem from="1775455023728" duration="9386000" />
+      <workItem from="1775455023728" duration="11892000" />
+      <workItem from="1779075957957" duration="3777000" />
+      <workItem from="1779709690896" duration="476000" />
+      <workItem from="1780307872245" duration="6081000" />
+      <workItem from="1780367924294" duration="4124000" />
+      <workItem from="1780377454043" duration="11858000" />
+      <workItem from="1780455238926" duration="11994000" />
     </task>
     <servers />
   </component>
